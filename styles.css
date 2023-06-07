@@ -8,11 +8,21 @@ body{
 .player_one a{
 	display:block;
 	text-decoration:none;
-	background-color:rgb(255, 255, 255);
+	background-color:white;
 	padding:5px;
 }
+.player_one{
+	border-radius:5px;
+}
+.player_one li{
+	list-style:none;
+}
+
 .player_two{
-	display:flex;
-	flex-direction:column;
-	align-items:center;
+	padding:7px;
+	width:320px;
+	height:300px;
+	background-color:white;
+	border-radius:5px;
+	
 }
